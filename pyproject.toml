@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django-template"
+version = "0.1.0"
+description = ""
+authors = ["sopheaktrahor <sopheaktrahor@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.1"
+python-dotenv = "^1.0.0"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.1"
+djangorestframework-simplejwt = "^5.3.1"
+psycopg2-binary = "^2.9.9"
+gunicorn = "^21.2.0"
+drf-spectacular = "^0.27.0"
+django-extensions = "^3.2.3"
+django-silk = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
