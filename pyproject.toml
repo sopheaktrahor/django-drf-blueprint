@@ -6,7 +6,7 @@ authors = ["sopheaktrahor <sopheaktrahor@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 Django = "^5.0.1"
 python-dotenv = "^1.0.0"
 djangorestframework = "^3.14.0"
